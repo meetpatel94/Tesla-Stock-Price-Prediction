@@ -294,6 +294,12 @@ forecasting = st.Page(
     icon="📉"
 )
 
+chatbot = st.Page(
+    "pages/chatbot.py",
+    title="AI Chatbot",
+    icon="🤖"
+)
+
 about = st.Page(
     "pages/About_Project.py",
     title="Project Info",
@@ -313,6 +319,7 @@ pg = st.navigation([
     comparison,
     prediction,
     forecasting,
+    chatbot,
     about
 ])
 
