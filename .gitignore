@@ -43,8 +43,7 @@ ENV/
 
 # ==========================================
 
-*.h5
-*.keras
+
 
 # Uncomment if model is too large
 
